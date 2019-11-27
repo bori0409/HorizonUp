@@ -40,10 +40,12 @@ namespace MotionREST.DB
         protected MotionREST.Model.MotionsModelWorkPlease ReadNextElement(SqlDataReader reader)
         {
             MotionREST.Model.MotionsModelWorkPlease mymotion = new MotionREST.Model.MotionsModelWorkPlease();
-            mymotion.MyDataTime= reader.GetDateTime(0);
-            mymotion.Pitch = reader.GetDecimal(1);
-            mymotion.Roll = reader.GetDecimal(2);
-            mymotion.Yaw = reader.GetDecimal(3);
+            mymotion.Pitch = reader.GetDecimal(0);
+            mymotion.Roll = reader.GetDecimal(1);
+            mymotion.Yaw = reader.GetDecimal(2);
+            mymotion.MyDataTime = reader.GetDateTime(3);
+            
+
             return mymotion;
         }
     }
