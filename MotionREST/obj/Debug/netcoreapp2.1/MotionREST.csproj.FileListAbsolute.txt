@@ -1,0 +1,6 @@
+C:\source\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.csprojAssemblyReference.cache
+C:\source\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.csproj.CoreCompileInputs.cache
+C:\source\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.RazorAssemblyInfo.cache
+C:\source\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.RazorAssemblyInfo.cs
+C:\source\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.AssemblyInfoInputs.cache
+C:\source\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.AssemblyInfo.cs

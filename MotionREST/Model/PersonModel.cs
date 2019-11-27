@@ -23,9 +23,9 @@ namespace MotionREST.Model
         }
         public PersonModel(int id, string name, int motionId)
         {
-            id = PersonId;
-            name = PersonName;
-            motionId = MyMotion;
+           PersonId = id;
+             PersonName= name ;
+             MyMotion = motionId ;
         }
 
 
