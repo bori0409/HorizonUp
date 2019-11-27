@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using MotionREST.Model;
@@ -8,11 +9,12 @@ namespace MotionREST.DB
 {
     public class ManageDB
     {
-        public IEnumerable<Items> Get()
+        private const string GET_ALL = "select* from Motion";
+        public IEnumerable<MotionREST.Model.MotionsModelWorkPlease> Get()
         {
 
-            List<MotionREST.Model.> liste = new List<Items>();
-            using (SqlConnection conn = new SqlConnection(DBstring))
+            List<MotionREST.Model.MotionsModelWorkPlease> liste = new List<MotionREST.Model.MotionsModelWorkPlease>();
+            using (SqlConnection conn = new SqlConnection(Controllers.connectionString.connectionstring))
             {
                 if (conn.State != System.Data.ConnectionState.Open)
                 {
@@ -24,8 +26,8 @@ namespace MotionREST.DB
                     {
                         while (reader.Read())
                         {
-                            Items item = ReadNextElement(reader);
-                            liste.Add(item);
+                            MotionREST.Model.MotionsModelWorkPlease motion = ReadNextElement(reader);
+                            liste.Add(motion);
                         }
                     }
                     return liste;
@@ -35,14 +37,14 @@ namespace MotionREST.DB
             }
 
         }
-        protected Items ReadNextElement(SqlDataReader reader)
+        protected MotionREST.Model.MotionsModelWorkPlease ReadNextElement(SqlDataReader reader)
         {
-            Items item = new Items();
-            item.Id = reader.GetInt32(0);
-            item.Name = reader.GetString(1);
-            item.Quality = reader.GetString(2);
-            item.Quantity = reader.GetDouble(3);
-            return item;
+            MotionREST.Model.MotionsModelWorkPlease mymotion = new MotionREST.Model.MotionsModelWorkPlease();
+            mymotion.MyDataTime= reader.GetDateTime(0);
+            mymotion.Pitch = reader.GetDecimal(1);
+            mymotion.Roll = reader.GetDecimal(2);
+            mymotion.Yaw = reader.GetDecimal(3);
+            return mymotion;
         }
     }
 }
