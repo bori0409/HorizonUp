@@ -7,29 +7,31 @@ namespace MotionREST.Model
 {
     public class MotionsModelWorkPlease
     {
-       
-        public decimal Pitch
+        public int Id { get; set; }
+        public double Pitch
             {
                 get; set;
             }
-            public decimal Roll
+            public double Roll
             {
                 get; set;
             }
-            public decimal Yaw { get; set; }
+            public double Yaw { get; set; }
             public DateTime MyDataTime { get; set; }
 
             public MotionsModelWorkPlease()
             {
 
             }
-            public MotionsModelWorkPlease(decimal roll, decimal yaw, decimal pitch, DateTime dateTime)
+            public MotionsModelWorkPlease(int id, double roll, double yaw, double pitch, DateTime dateTime)
             {
+                Id = id;
                 Roll = roll;
                 Pitch = pitch;
                 Yaw = yaw;
                 MyDataTime = dateTime;
             }
+       
 
         }
     }
