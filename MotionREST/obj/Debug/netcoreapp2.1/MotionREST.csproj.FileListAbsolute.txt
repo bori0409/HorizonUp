@@ -1,0 +1,14 @@
+D:\source\repos\HorizonUp\MotionREST\bin\Debug\netcoreapp2.1\MotionREST.deps.json
+D:\source\repos\HorizonUp\MotionREST\bin\Debug\netcoreapp2.1\MotionREST.runtimeconfig.json
+D:\source\repos\HorizonUp\MotionREST\bin\Debug\netcoreapp2.1\MotionREST.runtimeconfig.dev.json
+D:\source\repos\HorizonUp\MotionREST\bin\Debug\netcoreapp2.1\MotionREST.dll
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.csprojAssemblyReference.cache
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.csproj.CoreCompileInputs.cache
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.RazorAssemblyInfo.cache
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.RazorAssemblyInfo.cs
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.AssemblyInfoInputs.cache
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.AssemblyInfo.cs
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.RazorTargetAssemblyInfo.cache
+D:\source\repos\HorizonUp\MotionREST\bin\Debug\netcoreapp2.1\MotionREST.pdb
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.dll
+D:\source\repos\HorizonUp\MotionREST\obj\Debug\netcoreapp2.1\MotionREST.pdb
