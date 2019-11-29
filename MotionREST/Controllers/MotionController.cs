@@ -7,15 +7,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MotionREST.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/motion")]
     [ApiController]
     public class MotionController : ControllerBase
     {
+       
         // GET: api/Motion
+        DB.ManageDB dbneshto = new DB.ManageDB();
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Model.MotionsModelWorkPlease> Get()
         {
-            return new string[] { "value1", "value2" };
+            return dbneshto.Get();
+
         }
 
         // GET: api/Motion/5
@@ -27,8 +30,10 @@ namespace MotionREST.Controllers
 
         // POST: api/Motion
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Model.MotionsModelWorkPlease value)
         {
+           
+
         }
 
         // PUT: api/Motion/5
