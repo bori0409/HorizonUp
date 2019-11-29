@@ -1,0 +1,7 @@
+D:\source\repos\HorizonUp\UDPCLlient1\obj\Debug\UDPCLlient1.csprojAssemblyReference.cache
+D:\source\repos\HorizonUp\UDPCLlient1\obj\Debug\UDPCLlient1.csproj.CoreCompileInputs.cache
+D:\source\repos\HorizonUp\UDPCLlient1\bin\Debug\UDPCLlient1.exe.config
+D:\source\repos\HorizonUp\UDPCLlient1\bin\Debug\UDPCLlient1.exe
+D:\source\repos\HorizonUp\UDPCLlient1\bin\Debug\UDPCLlient1.pdb
+D:\source\repos\HorizonUp\UDPCLlient1\obj\Debug\UDPCLlient1.exe
+D:\source\repos\HorizonUp\UDPCLlient1\obj\Debug\UDPCLlient1.pdb

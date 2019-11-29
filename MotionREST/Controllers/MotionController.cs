@@ -30,9 +30,8 @@ namespace MotionREST.Controllers
 
         // POST: api/Motion
         [HttpPost]
-        public void Post([FromBody] Model.MotionsModelWorkPlease value)
-        {
-           
+        public void Post([FromBody] Model.MotionsModelWorkPlease value)  
+        {  
 
         }
 

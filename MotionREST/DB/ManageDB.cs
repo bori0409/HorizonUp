@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
+using MotionREST.Controllers;
 using MotionREST.Model;
 
 namespace MotionREST.DB
@@ -14,7 +15,7 @@ namespace MotionREST.DB
         {
 
             List<MotionREST.Model.MotionsModelWorkPlease> liste = new List<MotionREST.Model.MotionsModelWorkPlease>();
-            using (SqlConnection conn = new SqlConnection(Controllers.connectionString.connectionstring))
+            using (SqlConnection conn = new SqlConnection(ConnectionString.connectionString))
             {
                 if (conn.State != System.Data.ConnectionState.Open)
                 {
