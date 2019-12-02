@@ -45,8 +45,8 @@ namespace MotionREST.DB
             mymotion.Roll = reader.IsDBNull(1) ? 0 : reader.GetDouble(1);
             mymotion.Yaw = reader.IsDBNull(2) ? 0 : reader.GetDouble(2);
             mymotion.Pitch = reader.IsDBNull(3) ? 0 : reader.GetDouble(3);
-            mymotion.MyDataTime = reader.IsDBNull(4) ? DateTime.Parse("1900-11-11T00:00:00.00") : reader.GetDateTime(4);            
-
+            mymotion.MyDataTime = reader.IsDBNull(4) ? DateTime.Parse("1900-11-11T00:00:00.00") : reader.GetDateTime(4);
+            mymotion.DeviceId = reader.IsDBNull(5) ? 0 : reader.GetInt32(5);
             return mymotion;
         }
     }

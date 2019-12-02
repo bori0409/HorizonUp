@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
@@ -30,9 +31,25 @@ namespace MotionREST.Controllers
 
         // POST: api/Motion
         [HttpPost]
-        public void Post([FromBody] Model.MotionsModelWorkPlease value)  
-        {  
 
+        public int Post([FromBody] Model.MotionsModelWorkPlease value)
+        {
+            string insertString = "insert into Motion (MotionId,Roll, Yaw, Pitch, MyDateTime,DeviceId) values(@thisid, @thisroll, @thisyaw, @thisPitch, @thisMydateTime, @thisdeviceUD); ";
+            using (SqlConnection conn = new SqlConnection(Controllers.ConnectionString.connectionString))
+            {
+                conn.Open();
+                using (SqlCommand command = new SqlCommand(insertString, conn))
+                {
+                    command.Parameters.AddWithValue("@thisid", value.Id);
+                    command.Parameters.AddWithValue("@thisroll", value.Roll);
+                    command.Parameters.AddWithValue("@thisyaw", value.Yaw);
+                    command.Parameters.AddWithValue("@thisPitch", value.Pitch);
+                    command.Parameters.AddWithValue("@thisMydateTime", value.MyDataTime);
+                    command.Parameters.AddWithValue("@thisdeviceUD", value.DeviceId);
+                    int rowsAffected = command.ExecuteNonQuery();
+                    return rowsAffected;
+                }
+            }
         }
 
         // PUT: api/Motion/5
