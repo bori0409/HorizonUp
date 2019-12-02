@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\MotionREST\\MotionREST\\MotionREST.csproj": {}
+    "D:\\source\\repos\\HorizonUp\\MotionREST\\MotionREST.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\MotionREST\\MotionREST\\MotionREST.csproj": {
+    "D:\\source\\repos\\HorizonUp\\MotionREST\\MotionREST.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\MotionREST\\MotionREST\\MotionREST.csproj",
+        "projectUniqueName": "D:\\source\\repos\\HorizonUp\\MotionREST\\MotionREST.csproj",
         "projectName": "MotionREST",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\MotionREST\\MotionREST\\MotionREST.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\MotionREST\\MotionREST\\obj\\",
+        "projectPath": "D:\\source\\repos\\HorizonUp\\MotionREST\\MotionREST.csproj",
+        "packagesPath": "C:\\Users\\IvanMednikarov\\.nuget\\packages\\",
+        "outputPath": "D:\\source\\repos\\HorizonUp\\MotionREST\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\IvanMednikarov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
