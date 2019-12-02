@@ -1,0 +1,2 @@
+D:\source\repos\HorizonUp\UDPClient\obj\Debug\UDPClient.csprojAssemblyReference.cache
+D:\source\repos\HorizonUp\UDPClient\obj\Debug\UDPClient.csproj.CoreCompileInputs.cache
