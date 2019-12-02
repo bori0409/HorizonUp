@@ -35,7 +35,7 @@ namespace MotionREST.Controllers
         public int Post([FromBody] Model.MotionsModelWorkPlease value)
         {
             string insertString = "insert into Motion (MotionId,Roll, Yaw, Pitch, MyDateTime,DeviceId) values(@thisid, @thisroll, @thisyaw, @thisPitch, @thisMydateTime, @thisdeviceUD); ";
-            using (SqlConnection conn = new SqlConnection(Controllers.ConnectionString.connectionString))
+            using (SqlConnection conn = new SqlConnection(Controllers.ConnectionString.connectionStrings))
             {
                 conn.Open();
                 using (SqlCommand command = new SqlCommand(insertString, conn))

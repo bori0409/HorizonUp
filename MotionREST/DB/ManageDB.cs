@@ -15,7 +15,7 @@ namespace MotionREST.DB
         {
 
             List<MotionREST.Model.MotionsModelWorkPlease> liste = new List<MotionREST.Model.MotionsModelWorkPlease>();
-            using (SqlConnection conn = new SqlConnection(ConnectionString.connectionString))
+            using (SqlConnection conn = new SqlConnection(ConnectionString.connectionStrings))
             {
                 if (conn.State != System.Data.ConnectionState.Open)
                 {

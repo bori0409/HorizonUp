@@ -1,0 +1,16 @@
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.csprojAssemblyReference.cache
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.RazorAssemblyInfo.cache
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.RazorAssemblyInfo.cs
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.AssemblyInfoInputs.cache
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.AssemblyInfo.cs
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\appsettings.Development.json
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\appsettings.json
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\Properties\launchSettings.json
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\MotionREST.deps.json
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\MotionREST.runtimeconfig.json
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\MotionREST.runtimeconfig.dev.json
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\MotionREST.dll
+C:\Shool\HorizonUp\MotionREST\bin\Release\netcoreapp2.1\MotionREST.pdb
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.RazorTargetAssemblyInfo.cache
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.dll
+C:\Shool\HorizonUp\MotionREST\obj\Release\netcoreapp2.1\MotionREST.pdb
